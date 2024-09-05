@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(7, 7, 7, 0.938);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.photo {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#personal-info {
+    background-color: #3498db;
+}
+
+#professional-objective {
+    background-color: #2ecc71;
+}
+
+#work-experience {
+    background-color: #e74c3c;
+}
+
+#responsibilities {
+    background-color: #f39c12;
+}
+
+#education {
+    background-color: #9b59b6;
+}
+
+h2 {
+    margin-top: 0;
+}
